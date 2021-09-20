@@ -32,7 +32,10 @@ public class Certificat {
     /**
      * @param note
      */
-    public void updatePart(void note) {
+    public void updatePart(int note) {
+        totalPoint+=note;
+    }
+    public void delivrerCertificat() {
         // TODO implement here
     }
 

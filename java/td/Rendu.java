@@ -1,7 +1,5 @@
 package td;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -10,7 +8,11 @@ public class Rendu {
     /**
      * Default constructor
      */
-    public Rendu() {
+    public Rendu(String doc, String date,int note,Cours cours) {
+        this.doc=doc;
+        this.date=date;
+        this.note=note;
+        this.cours=cours;
     }
 
     /**
@@ -34,6 +36,7 @@ public class Rendu {
     private ER etat;
 
     private Enseignant enseignant;
+    private Cours cours;
 
 
 
@@ -62,7 +65,7 @@ public class Rendu {
      * @param ens
      */
     public void setEnseignant(Enseignant ens) {
-        this.enseignant=ens;
+        this.enseignant =ens;
     }
 
 }

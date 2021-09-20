@@ -10,7 +10,10 @@ public class Cours {
     /**
      * Default constructor
      */
-    public Cours() {
+    public Cours(ArrayList<Enseignant>  enseignants, ArrayList<Etudiant> etudiants, Enseignant cdc) {
+        this.tousLesEnseignant=enseignants;
+        this.etudiants=etudiants;
+        this.CDC =cdc;
     }
 
 
@@ -20,7 +23,9 @@ public class Cours {
      */
     public Enseignant CDC;
 
-    public ArrayList<Enseignant> tousLesEnseignants;
+    public ArrayList<Enseignant> tousLesEnseignant;
+    public ArrayList<Etudiant> etudiants;
+
 
 
     /**
@@ -33,7 +38,7 @@ public class Cours {
     /**
      * @param ens
      */
-    public void informerEns(Enseignant ens) {
+    public void informerEns(EnseignantCreator ens) {
         // TODO implement here
     }
 

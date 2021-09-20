@@ -1,22 +1,36 @@
 package td;
 
-import java.util.*;
-
-/**
- * 
- */
-public class Etudiant extends Utilisateur {
+public class Etudiant {
 
     /**
-     * Default constructor
-     */
-    public Etudiant() {
-    }
-
-    /**
-     * 
+     *
      */
     private String numEtudiant;
+    /**
+     *
+     */
+    private String nom;
 
+    /**
+     *
+     */
+    private String prenom;
 
+    /**
+     *
+     */
+    private String adresse;
+
+    /**
+     *
+     */
+    private String mail;
+
+    public Etudiant(String nom, String prenom, String adresse,String mail,String numEtudiant) {
+        this.numEtudiant = numEtudiant;
+        this.nom=nom;
+        this.prenom=prenom;
+        this.adresse=adresse;
+        this.mail=mail;
+    }
 }
