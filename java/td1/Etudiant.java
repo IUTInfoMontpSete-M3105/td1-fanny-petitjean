@@ -1,6 +1,6 @@
-package td;
+package td1;
 
-public class Etudiant {
+public class Etudiant extends Utilisateur{
 
     /**
      *
@@ -27,10 +27,7 @@ public class Etudiant {
     private String mail;
 
     public Etudiant(String nom, String prenom, String adresse,String mail,String numEtudiant) {
-        this.numEtudiant = numEtudiant;
-        this.nom=nom;
-        this.prenom=prenom;
-        this.adresse=adresse;
-        this.mail=mail;
+        super(nom,prenom,adresse,mail);
+        this.numEtudiant=numEtudiant;
     }
 }

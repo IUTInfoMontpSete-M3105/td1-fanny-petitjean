@@ -1,4 +1,4 @@
-package td;
+package td1;
 
 /**
  * 
@@ -7,5 +7,5 @@ public enum EP {
     NEGATIF,
     POSITIF,
     CREATED,
-    UNDER EVALUATION
+    UNDER_EVALUATION,
 }

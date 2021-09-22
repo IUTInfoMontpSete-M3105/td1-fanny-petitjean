@@ -1,6 +1,4 @@
-package td;
-
-import java.util.*;
+package td1;
 
 /**
  * 
